@@ -58,6 +58,8 @@
 		354B60AD1D002E8E003FB6EB /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				354B60C81D002F23003FB6EB /* Resources */,
+				354B60C51D002EE6003FB6EB /* Classes */,
 				354B60B11D002E8E003FB6EB /* AppDelegate.h */,
 				354B60B21D002E8E003FB6EB /* AppDelegate.m */,
 				354B60B41D002E8E003FB6EB /* ViewController.h */,
@@ -77,6 +79,52 @@
 				354B60AF1D002E8E003FB6EB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		354B60C51D002EE6003FB6EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				354B60C71D002F0A003FB6EB /* Controller */,
+				354B60C61D002EF3003FB6EB /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		354B60C61D002EF3003FB6EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		354B60C71D002F0A003FB6EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		354B60C81D002F23003FB6EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				354B60CA1D002F90003FB6EB /* storyboard */,
+				354B60C91D002F3F003FB6EB /* drawable */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		354B60C91D002F3F003FB6EB /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = drawable;
+			sourceTree = "<group>";
+		};
+		354B60CA1D002F90003FB6EB /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
