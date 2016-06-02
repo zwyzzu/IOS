@@ -39,10 +39,40 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z78-Ux-vKM">
+                                <rect key="frame" x="20" y="252" width="49" height="30"/>
+                                <state key="normal" title="END">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HINT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rf9-mJ-kZG">
+                                <rect key="frame" x="155" y="257" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hint" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jyn-HW-HFR">
+                                <rect key="frame" x="20" y="203" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JL7-jq-zMz"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VU4-ZO-hOh"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="uiButtonText" destination="Z78-Ux-vKM" id="SvF-sv-Rav"/>
+                        <outlet property="uiSegmented" destination="aLu-Lh-moI" id="Zje-XT-afg"/>
+                        <outlet property="uiSegmentedLabel" destination="bYN-CA-X2Q" id="WZu-uI-pJJ"/>
+                        <outlet property="uiSwitch" destination="ddF-l3-5oO" id="PZe-WL-0ci"/>
+                        <outlet property="uiSwitchLabel" destination="Zz8-CN-xiU" id="Qli-nY-pco"/>
+                        <outlet property="uiTextField" destination="jyn-HW-HFR" id="ZCg-bT-ziJ"/>
+                        <outlet property="uiTextLabel" destination="Rf9-mJ-kZG" id="cTC-Lx-XuK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

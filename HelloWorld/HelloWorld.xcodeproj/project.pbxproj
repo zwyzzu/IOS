@@ -62,11 +62,7 @@
 				354B60C51D002EE6003FB6EB /* Classes */,
 				354B60B11D002E8E003FB6EB /* AppDelegate.h */,
 				354B60B21D002E8E003FB6EB /* AppDelegate.m */,
-				354B60B41D002E8E003FB6EB /* ViewController.h */,
-				354B60B51D002E8F003FB6EB /* ViewController.m */,
-				354B60B71D002E8F003FB6EB /* Main.storyboard */,
 				354B60BA1D002E8F003FB6EB /* Assets.xcassets */,
-				354B60BC1D002E8F003FB6EB /* LaunchScreen.storyboard */,
 				354B60BF1D002E8F003FB6EB /* Info.plist */,
 				354B60AE1D002E8E003FB6EB /* Supporting Files */,
 			);
@@ -100,6 +96,8 @@
 		354B60C71D002F0A003FB6EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				354B60B41D002E8E003FB6EB /* ViewController.h */,
+				354B60B51D002E8F003FB6EB /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -123,6 +121,8 @@
 		354B60CA1D002F90003FB6EB /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				354B60B71D002E8F003FB6EB /* Main.storyboard */,
+				354B60BC1D002E8F003FB6EB /* LaunchScreen.storyboard */,
 			);
 			name = storyboard;
 			sourceTree = "<group>";
@@ -348,6 +348,7 @@
 				354B60C41D002E8F003FB6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
